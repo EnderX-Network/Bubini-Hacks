@@ -1,0 +1,100 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "§f§oFind §bOres§f, §bCaves§f, §bPlayers§f and more more easy using §9X-Ray§f. §r§fMade by §9§ld§b6§9b§r",
+      "name" : "§9§lX-Ray§r§f Made By §9§ld§b6§9b §r§7[Texture Pack]",
+      "uuid" : "8F99C7D5-0D78-4D3E-BCF1-AF615BDB0917",
+      "min_engine_version": [ 1,9,0 ],
+      "version" : [ 1, 5, 0 ]
+   },
+   "min_engine_version": [ 1,9,0 ],
+   "modules" : [
+      {
+         "description" : "§7Made by §4§ld§c6§6b",
+         "type" : "resources",
+         "uuid" : "FB48A120-2607-4CF5-8017-FBAC60645A75",
+         "version" : [ 1, 5, 0 ]
+      }   ],
+   "subpacks": [
+   {
+      "folder_name": "variant_netherite",
+      "name": "§9X-Ray§f for §8Ne§6t§4h§8e§6ri§8t§4e§r",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_diamond",
+      "name": "§9X-Ray§f for §bDia§9m§bond§9s",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_emerald",
+      "name": "§9X-Ray§f for §eEm§2e§aral§2ds§r",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "variant_gold",
+      "name": "§9X-Ray§f for §6G§eo§6ld",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_iron",
+      "name": "§9X-Ray§f for §7Iro§8n",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_redstone",
+      "name": "§9X-Ray§f for §4Red§cst§4on§ce",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_coal",
+      "name": "§9X-Ray§f for §7C§8o§0a§8l§r",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_lapis",
+      "name": "§9X-Ray§f for §1La§9pi§1s La§9z§1ul§9i",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_8",
+      "name": "§5En§dd§5 Di§0m§den§5sio§0n §7§l|§r §9X-Ray§f through §eEnd Stone§7, §8Ob§5si§8dia§5n§7§l",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "variant_9",
+      "name": "§5En§dd§5 Di§0m§den§5sio§0n §7§l|§r §9X-Ray§f through §eEnd Stone§7, §8Ob§5si§8dia§5n§7, §dPurpur Block§7, §dPurpur Stairs§7§l",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "variant_7",
+      "name": "§4Ne§ct§4he§cr§7§l |§r §9X-Ray§f through §4Ne§cth§4erra§cck§7, §cSo§8u§cl S§8an§cd§7§l",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "variant_1",
+      "name": "§2Ove§ar§2Wo§arl§2d §7§l|§r §fClassic §9X-Ray§7§l - §r§9Night Vision §fand §9Smooth Lighting §cOFF §fRequired to recognize Ores",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "variant_5",
+      "name": "§2Al§al §cD§4im§ce§4n§5si§do§0n§7§l |§r §9X-Ray §fthrough Most natural underground blocks to find §bSpawners §fand §bPlayerbases",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_end",
+      "name": "§2Ove§ar§2Wo§arl§2d §7§l|§r §9X-Ray§f for §bEnd Portal Frames§f",
+      "memory_tier": 2
+      },
+   {
+      "folder_name": "variant_10",
+      "name": "§2Al§al §cD§4im§ce§4n§5si§do§0n§7§l |§r §9X-Ray§f allows you to see most §bMobs§f,§b Players§f,§b Items§f and most types of §bStorages§f through Blocks",
+      "memory_tier": 3
+      },
+   {
+      "folder_name": "variant_0",
+      "name": "§9X-Ray §cDisabled",
+      "memory_tier": 0
+      }
+   ]
+}

@@ -1,0 +1,14 @@
+{
+  "end_stone" : { 
+    "textures" : "end_stone",
+    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "obsidian" : { 
+    "isotropic" : true,
+    "textures" : "obsidian",
+    "brightness_gamma" : 2.00,
+    "sound": "stone",
+    "blockshape": "invisible"
+  }
+}

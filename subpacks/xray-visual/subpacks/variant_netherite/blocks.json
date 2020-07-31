@@ -1,0 +1,46 @@
+{
+  "netherrack" : { 
+    "isotropic" : true,
+    "textures" : "netherrack",    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "soul_sand" : { 
+    "textures" : "soul_sand",
+    "sound": "sand",
+    "blockshape": "invisible"
+  },
+  "soul_soil" : {
+    "sound" : "soul_soil",
+    "textures" : "soul_soil",
+    "blockshape": "invisible"
+  },
+  "basalt" : {
+    "sound" : "basalt",
+    "textures" : {
+      "down" : "basalt_top",
+      "side" : "basalt_side",
+      "up" : "basalt_top"
+    },
+    "blockshape": "invisible"
+  },
+  "blackstone" : {
+    "sound" : "stone",
+    "textures" : {
+      "down" : "blackstone_top",
+      "side" : "blackstone",
+      "up" : "blackstone_top"
+    },
+    "blockshape": "invisible"
+  },
+  "magma" : {
+    "isotropic" : true,
+    "sound" : "stone",
+    "textures" : "magma",
+    "blockshape": "invisible"
+  },
+  "gravel" : { 
+    "textures" : "gravel",
+    "sound": "gravel",
+    "blockshape": "invisible"
+  }
+}

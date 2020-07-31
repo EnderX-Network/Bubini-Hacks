@@ -1,0 +1,22 @@
+{  "stone" : { 
+    "textures" : "stone", 
+    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "sandstone" : { 
+    "isotropic" : {"up" : true, "down" : true},    "textures" : { "up" : "sandstone_top", "down" : "sandstone_bottom", "side" : "sandstone_side"}, 
+    "brightness_gamma" : 0.70,
+    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "dirt" : { 
+    "isotropic" : true,
+    "textures" : "dirt", 
+    "sound": "gravel",
+    "blockshape": "invisible"
+  },
+  "gravel" : {     "textures" : "gravel", 
+    "sound": "gravel",
+    "blockshape": "invisible"
+  }
+}

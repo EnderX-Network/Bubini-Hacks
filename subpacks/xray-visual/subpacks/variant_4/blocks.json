@@ -1,0 +1,61 @@
+{  "stone" : { 
+    "textures" : "stone", 
+    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "sand" : { 
+    "isotropic" : true,
+    "textures" : "sand",
+    "brightness_gamma" : 0.55,
+    "sound": "sand",
+    "blockshape": "invisible"
+  },
+  "grass" : {
+    "isotropic" : {"up" : true, "down" : true},
+    "textures" : { "up" : "grass_top", "down" : "grass_bottom", "side" : "grass_side"},
+    "carried_textures" : { "up" : "grass_carried_top", "down" : "grass_carried_bottom", "side" : "grass_carried"},
+    "sound": "grass",
+    "blockshape": "invisible"
+  },
+  "sandstone" : { 
+    "isotropic" : {"up" : true, "down" : true},    "textures" : { "up" : "sandstone_top", "down" : "sandstone_bottom", "side" : "sandstone_side"}, 
+    "brightness_gamma" : 0.70,
+    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "obsidian" : { 
+    "isotropic" : true,
+    "textures" : "obsidian",
+    "brightness_gamma" : 2.00,
+    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "dirt" : { 
+    "isotropic" : true,
+    "textures" : "dirt", 
+    "sound": "gravel",
+    "blockshape": "invisible"
+  },
+  "gravel" : {     "textures" : "gravel", 
+    "sound": "gravel",
+    "blockshape": "invisible"
+  },
+  "flowing_water" : { 
+    "blockshape" : "water",
+    "textures" : { "up" : "still_water", "down" : "still_water", "side" : "flowing_water"},
+    "blockshape": "invisible"  },
+  "water" : { 
+     "blockshape" : "water",
+     "textures" : { "up" : "still_water", "down" : "still_water", "side" : "flowing_water"},
+    "blockshape": "invisible"
+  },  "flowing_lava" : { 
+    "blockshape" : "water",
+    "textures" : { "up" : "still_lava", "down" : "still_lava", "side" : "flowing_lava"},
+    "blockshape": "invisible"
+  },  "lava" : { 
+    "isotropic" : true,
+    "blockshape" : "water",
+    "textures" : { "up" : "still_lava", "down" : "still_lava", "side" : "flowing_lava"},
+    "blockshape": "invisible"
+  }
+}

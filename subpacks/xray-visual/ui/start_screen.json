@@ -1,0 +1,66 @@
+{
+	"namespace": "start",
+
+	"uipp_panel": {
+		"type": "stack_panel",
+		"orientation": "horizontal",
+		"size": ["100%",256],
+		"offset": [4,4],
+		"controls": [
+			{
+				"l":{
+					"type": "stack_panel",
+					"size": [132,"100%"],
+					"controls": [
+						{"i": {"type": "image","texture": "pack","size": [128,128]}},
+						{"s": {"type": "panel","size": [6,6]}},
+						{"v": {"type": "label","font_scale_factor": 1.5,"text": " §l§9X-Ray§f§r"}},
+						{"c": {"type": "label","font_scale_factor": 1.2,"text": "xray.version"}}
+					]
+				}
+			},
+			{
+				"r":{
+					"type": "stack_panel",
+					"size": ["fill","100%"],
+					"controls": [
+						{"x": {"type": "label","font_scale_factor": 1.7,"text": "§9§lX-Ray§r§f by §9d§b6§9b§r"}},
+						{"r": {"type": "label","font_scale_factor": 1.2,"text": "§f©2020 ~§9§ld§b6§9b§r"}},
+						{"a": {"type": "label","font_scale_factor": 1.0,"text": "§fI have a Cat :)"}},
+						{"y": {"type": "label","font_scale_factor": 0.8,"text": "§r\n§a§lMCPEDL§r§f: https://mcpedl.com/user/reduceramstart/ \n§9§lDiscord§r§f: https://discord.gg/kucb5WS\n§r"}},
+						{"0": {"type": "label","text": "changelog.01"}},
+						{"1": {"type": "label","text": "changelog.02"}},
+						{"2": {"type": "label","text": "changelog.03"}},
+						{"3": {"type": "label","text": "changelog.04"}},
+						{"4": {"type": "label","text": "changelog.05"}},
+						{"5": {"type": "label","text": "changelog.06"}},
+						{"6": {"type": "label","text": "changelog.07"}},
+						{"7": {"type": "label","text": "changelog.08"}},
+						{"8": {"type": "label","text": "changelog.09"}},
+						{"9": {"type": "label","text": "changelog.10"}}
+					]
+				}
+			}
+		]
+	},
+	"uipp_scroll@common.scrolling_panel":{"$show_background": false,"$scrolling_content": "start.uipp_panel"},
+	"uipp_main@common_dialogs.main_panel_no_buttons":{"size":["80%","80%"],"$text_name":" §9X-Ray§r","$child_control":"start.uipp_scroll"},
+
+	"uipp_start": {
+		"type": "stack_panel",
+		"orientation": "horizontal",
+		"controls": [
+			{"ico": {"type": "image","texture": "pack","size": [20,20]}},
+			{"ver": {"type": "label","text": "§f  by §9d§b6§9b§r"}}
+		]
+	},
+	"copyright@common_buttons.light_content_button": {
+		"anchor_from": "bottom_left",
+		"anchor_to": "bottom_left",
+		"size": [72,26],
+		"$pressed_button_name": "button.menu_buy_game",
+		"$button_content": "start.uipp_start",
+		"$default_button_alpha": 0.5,
+		"$default_hover_alpha": 0.5
+	}
+}

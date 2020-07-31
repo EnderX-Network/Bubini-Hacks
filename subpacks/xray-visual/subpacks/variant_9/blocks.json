@@ -1,0 +1,25 @@
+{
+  "end_stone" : { 
+    "textures" : "end_stone",
+    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "obsidian" : { 
+    "isotropic" : true,
+    "textures" : "obsidian",
+    "brightness_gamma" : 2.00,
+    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "purpur_block": {
+    "blockshape" : "tree",
+    "textures" : { "up" : "purpur_block_top", "down" : "purpur_block_bottom", "side" : "purpur_block_side"},
+    "sound": "stone",
+    "blockshape": "invisible"  },
+  "purpur_stairs": {
+    "blockshape": "stairs",
+    "textures": "stair_purpur_block",
+    "sound": "stone",
+    "blockshape": "invisible"
+  }
+}

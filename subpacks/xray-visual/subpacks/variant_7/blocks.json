@@ -1,0 +1,12 @@
+{
+  "netherrack" : { 
+    "isotropic" : true,
+    "textures" : "netherrack",    "sound": "stone",
+    "blockshape": "invisible"
+  },
+  "soul_sand" : { 
+    "textures" : "soul_sand",
+    "sound": "sand",
+    "blockshape": "invisible"
+  }
+}
